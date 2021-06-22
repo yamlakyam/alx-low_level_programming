@@ -1,8 +1,7 @@
 #include "holberton.h"
 /**
- * 
- *
  * Description: prints the alphabet
+ *
  */
 
 void print_alphabet(void)
