@@ -1,21 +1,23 @@
 #include "holberton.h"
-/* headers go here
-* main-entry point function
-* return: 0-success
-*/
+/**
+
+ * headers go here
+ * main-entry point function
+ * return: 0-success
+ */
 
 int main(void)
 {
 
-  char holberton[9] ="Holberton";
-  int i;
+char holberton[9] = "Holberton";
+int i;
   
-  for(i=0;i<9;i++)
-    {
-      _putchar(holberton[i]);
+for(i=0;i<9;i++)
+{
+_putchar(holberton[i]);
 
-    }
-      _putchar('\n');
+}
+_putchar('\n');
 
-  return (0);
+return (0);
 }
