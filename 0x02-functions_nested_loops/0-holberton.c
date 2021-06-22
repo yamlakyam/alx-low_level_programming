@@ -1,8 +1,10 @@
 #include "holberton.h"
 /**
- * headers go here
- * main-entry point function
- * return: 0-success
+ * main - prints Holberton
+ * 
+ * Description: prints Holberton
+ * 
+ * Return: 0 (Success)
  */
 int main(void)
 {
