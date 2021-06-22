@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <ctype.h>
 /**
  * _isalpha - checks whether a character is an alphabet or not
  *
