@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <ctype.h>
 
 /**
  * _abs - returns the absolute value of an int
@@ -10,5 +9,16 @@
 
 int _abs(int n)
 {
-return(abs(n));
+if (n > 0)
+{
+return (n);
+}
+else if (n < 0)
+{
+return (-n);
+}
+else
+{
+return (n);
+}
 }
