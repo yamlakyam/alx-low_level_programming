@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include <ctype.h>
 /**
  * _isalpha - checks whether a character is an alphabet or not
  *
@@ -11,7 +10,7 @@
 int _isaplha(int c)
 {
 
-if(isalpha(c))
+if (c >= 'a' && c <= 'z' && c >= 'A' && c <= 'Z' )
 return (1);
 else
 return (0);
